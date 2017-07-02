@@ -14,9 +14,10 @@ bacefook.friends.kani = [];
 bacefook.friends.yan = [];
 window.friends = Object.keys(bacefook.friends);
 
+
 var getRandomElement = function (array) {
   // Given an array, returns a random element
-  var randomIndex = Math.floor(Math.random() * array.length);
+  var randomIndex = Math.floor(Math.random() * array.length );
   return array[randomIndex];
 };
 
@@ -26,7 +27,9 @@ var fillers = ['my', 'your', 'his', 'her', 'my favorite', 'a beautiful', 'a deli
 var nouns = ['code chrysalis', 'restaurant', 'omakase', 'hitomedia', 'family mart', 'private jet', 'mama', 'lawsons', 'conbini', 'whisky', 'onigiri', 'tesla', 'food', 'house', 'toilet', 'tokyo', 'city', 'iphone', 'google', 'unicorn', 'mess', 'pirate ship', 'ninja'];
 var hashtags = ['#codechrysalis', '#techlife', '#startups', '#tokyo', '#japan', '#interesting', '', '#til', '#wtf', '#tgifriday', '#hashtags', '#japanlife', '#oops'];
 var feelings = ['happy', 'smug', 'lovestruck', 'gross', 'scared', 'shitty', 'angry', 'frustrated', 'excited', '']
-var images = [];
+var images = ['./img/earth.jpg','./img/fun.jpg','./img/programmer.jpg','./img/punching.gif','./img/smile.jpg','./img/Water.jpg'];
+
+
 
 var generateRandomText = function () {
   return [getRandomElement(starters), getRandomElement(verbs), getRandomElement(fillers), getRandomElement(nouns), getRandomElement(hashtags)].join(' ');

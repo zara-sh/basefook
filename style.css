@@ -1,0 +1,15 @@
+.square{
+	width: 500px;
+	height: 500px;
+	opacity: 0.5; 
+	padding: 10px 5px 10px 5px,
+	border: 2px solid;
+    border-radius: 10px;
+    background: #BADA55;
+}
+
+.topcorner{
+   position:absolute;
+   top:10px;
+   right:10px;
+  }
